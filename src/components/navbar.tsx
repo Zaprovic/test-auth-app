@@ -1,3 +1,4 @@
+import LoginButton from "./login-button";
 import NavbarItem from "./navbar-item";
 
 const Navbar = () => {
@@ -13,9 +14,7 @@ const Navbar = () => {
 					</ul>
 
 					<div className="flex gap-2">
-						<button className="bg-cyan-600 px-5 py-2 rounded-full hover:bg-cyan-700">
-							Log in
-						</button>
+						<LoginButton />
 						<button className="bg-cyan-600 px-5 py-2 rounded-full hover:bg-cyan-700">
 							Log out
 						</button>

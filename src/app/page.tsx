@@ -1,10 +1,13 @@
+import GreetingTitle from "@/components/greeting-title";
 import Navbar from "@/components/navbar";
 
 export default function Home() {
 	return (
 		<>
 			<Navbar />
-			<main>Welcome back</main>
+			<main className="p-3">
+				<GreetingTitle />
+			</main>
 		</>
 	);
 }
